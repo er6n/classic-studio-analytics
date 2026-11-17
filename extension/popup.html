@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { width: 280px; margin: 0; padding: 14px; font: 13px/1.4 Roboto, Arial, sans-serif; background: #282828; color: #fff; }
+  h1 { font-size: 15px; margin: 0 0 10px; font-weight: 500; }
+  label { display: flex; gap: 8px; align-items: center; margin: 8px 0; }
+  button { width: 100%; margin-top: 8px; padding: 8px; border: 0; border-radius: 2px; background: #3ea6ff; color: #0d0d0d; font-weight: 500; cursor: pointer; text-transform: uppercase; font-size: 12px; }
+  button.secondary { background: #3f3f3f; color: #fff; }
+  #status { margin-top: 10px; color: #aaa; min-height: 1.2em; word-break: break-word; }
+</style>
+</head>
+<body>
+  <h1>Classic Analytics</h1>
+  <label><input type="checkbox" id="flags"> Turn off the new Insights design</label>
+  <button id="reload" class="secondary">Save &amp; reload Studio</button>
+  <button id="debug">Copy debug info</button>
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
