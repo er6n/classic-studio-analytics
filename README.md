@@ -11,6 +11,8 @@ Brings back the old analytics page in YouTube Studio instead of the new Insights
 
 Keep the folder somewhere you won't delete it, Chrome loads the extension from there.
 
-If it stops working, [open an issue](https://github.com/er6n/classic-studio-analytics/issues) and paste what you get from the extension's Copy debug info button.
+Click the extension icon to turn it on or off.
+
+If it stops working, [open an issue](https://github.com/er6n/classic-studio-analytics/issues).
 
 Not affiliated with YouTube.

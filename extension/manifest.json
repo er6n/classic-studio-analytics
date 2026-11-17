@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Classic Analytics for YouTube Studio",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Brings back the classic Analytics page in YouTube Studio instead of the new Insights hub.",
   "permissions": ["scripting", "activeTab"],
   "host_permissions": ["https://studio.youtube.com/*"],
